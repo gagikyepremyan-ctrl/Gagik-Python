@@ -2,6 +2,7 @@
 import random
 
 def roll_dice():
+    input("Press Enter to roll the dice...")
     dice1 = random.randint(1, 6)
     dice2 = random.randint(1, 6)
     total = dice1 + dice2
@@ -29,7 +30,7 @@ def play_craps():
                 break
 
 if __name__ == "__main__":
-         play_craps()
+        play_craps()
 
    
 
