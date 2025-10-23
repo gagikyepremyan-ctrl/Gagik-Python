@@ -2,10 +2,10 @@
 import random
 
 def roll_dice():
-    die1 = random.randint(1, 6)
-    die2 = random.randint(1, 6)
-    total = die1 + die2
-    print(f"You rolled {die1} + {die2} = {total}")
+    dice1 = random.randint(1, 6)
+    dice2 = random.randint(1, 6)
+    total = dice1 + dice2
+    print(f"You rolled {dice1} + {dice2} = {total}")
     return total
 
 def play_craps():
